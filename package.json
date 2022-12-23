@@ -1,0 +1,30 @@
+{
+	"name": "sreality-monitor",
+	"version": "1.0.0",
+	"description": "",
+	"main": "./dist/app.js",
+	"scripts": {
+		"dev": "tsc && node ./dist/app.js",
+		"build": "npm i"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"axios": "^0.27.2",
+		"cors": "^2.8.5",
+		"dotenv": "^16.0.2",
+		"express": "^4.18.2",
+		"helmet": "^6.0.1",
+		"mongoose": "^6.5.4",
+		"puppeteer": "^17.0.0",
+		"puppeteer-extra": "^3.3.4",
+		"puppeteer-extra-plugin-stealth": "^2.11.1",
+		"user-agents": "^1.0.1130"
+	},
+	"devDependencies": {
+		"@types/cors": "^2.8.13",
+		"@types/express": "^4.17.14",
+		"@types/user-agents": "^1.0.2"
+	}
+}
